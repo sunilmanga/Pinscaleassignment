@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import Cookies from "js-cookie"
 import Headers from "../Headers"
 import Navigation from "../Navigation";
-import GroupAvatars from "./avatar";
+import GroupAvatars from "./avatar"
 import './index.css'
 
 const Profile = () => {
