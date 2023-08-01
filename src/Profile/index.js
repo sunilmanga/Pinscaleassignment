@@ -31,7 +31,7 @@ const Profile = () => {
       setData(profiledata)
       console.log(profiledata);
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
   };
 
