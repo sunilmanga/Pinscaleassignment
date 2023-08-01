@@ -12,7 +12,9 @@ const Dashboard = () => {
             </div>
             <div>
                 <Navigation/>
-                <div style={{display:"flex",  flexDirection:"row", justifyContent:"space-between"}}>
+                
+            <div>
+                <div style={{display:"flex",  flexDirection:"row", justifyContent:"space-around"}}>
             <div>
                 <span>1250</span>
                 <img src={creditpic} alt="pic"/>
@@ -22,6 +24,7 @@ const Dashboard = () => {
                 <span>1250</span>
                 <img src={creditpic} alt="pic"/>
                 <h1>Credit</h1>
+            </div>
             </div>
         </div>
 
